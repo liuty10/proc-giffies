@@ -1,0 +1,3 @@
+/sbin/insmod jiffies.ko
+/sbin/rmmod jiffies.ko
+dmesg | grep "jiffies"
